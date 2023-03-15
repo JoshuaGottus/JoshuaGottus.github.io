@@ -153,27 +153,57 @@ a{
 
 .main {
   background-color: var(--main-bg-color);
-  color: var(--first-color);
+  color: var(--white-color);
   height: 100vh;
   top: 0;
   left: 0;
-  padding: 2rem 0 0 6.75rem;
+  padding: 12.5rem 0 0 10rem;
   transition: 0.5s;
 }
 
-
-.main h1 .first-name {
-  font-size: 32px;
+.main h1 {
+  font-size: 3rem;
 }
 
-.main h1 .last-name {
-  font-size: 28px;
+
+
+.hero-hover:hover {
+  transition: 0.3s ease-in-out;
+  color: var(--first-color);
 }
 
 .hero-lines {
   content: ' '
 }
 
-.main h2 {
-  font-size: 24px;
+.main .color {
+  color: var(--first-color);
+}
+
+.main .middle {
+  padding-right: 0;
+}
+
+.main .contact-btn a {
+  text-decoration: none;
+  font-size: var(--normal-font-size);
+  color: var(--first-color);
+}
+
+.main .contact-btn button {
+  padding: 10px 15px;
+  background-color: transparent;
+  border: 1px solid var(--first-color);
+  border-radius: 3px;
+  transition: 0.15s ease-in-out;
+}
+
+.main .contact-btn button:hover {
+  background-color: var(--first-color);
+  color: var(--white-color);
+}
+
+.main .contact-btn button a:hover {
+  color: var(--white-color);
+  background-color: var(--first-color);
 }
