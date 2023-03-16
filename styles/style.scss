@@ -165,8 +165,6 @@ a{
   font-size: 3rem;
 }
 
-
-
 .hero-hover:hover {
   transition: 0.3s ease-in-out;
   color: var(--first-color);
@@ -184,13 +182,18 @@ a{
   padding-right: 0;
 }
 
+.main .middle p {
+  width: 650px;
+  word-wrap: break-word;
+}
+
 .main .contact-btn a {
   text-decoration: none;
   font-size: var(--normal-font-size);
-  color: var(--first-color);
+  color: var(--white-color);
 }
 
-.main .contact-btn button {
+.main .contact-btn {
   padding: 10px 15px;
   background-color: transparent;
   border: 1px solid var(--first-color);
@@ -198,12 +201,6 @@ a{
   transition: 0.15s ease-in-out;
 }
 
-.main .contact-btn button:hover {
-  background-color: var(--first-color);
-  color: var(--white-color);
-}
-
-.main .contact-btn button a:hover {
-  color: var(--white-color);
+.main .contact-btn:hover {
   background-color: var(--first-color);
 }
