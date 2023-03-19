@@ -37,6 +37,7 @@ const showMenu = (toggleId, navbarId, bodyId)=>{
     })
   }
   
+
 // ===== RANDOMIZE TEXT =====
 
 const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -65,5 +66,4 @@ document.querySelector(".hero-hover").onmouseover = event => {
     }
     
     iteration += 1 / 3;
-  }, 30);
-}
+  }, 30)}
