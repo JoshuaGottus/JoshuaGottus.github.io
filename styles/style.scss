@@ -165,6 +165,10 @@ a{
   font-size: 3rem;
 }
 
+.Hello {
+  text-decoration: underline var(--first-color);
+}
+
 .hero-hover:hover {
   transition: 0.3s ease-in-out;
   color: var(--first-color);

@@ -204,6 +204,11 @@ a {
   font-size: 3rem;
 }
 
+.Hello {
+  -webkit-text-decoration: underline var(--first-color);
+          text-decoration: underline var(--first-color);
+}
+
 .hero-hover:hover {
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
