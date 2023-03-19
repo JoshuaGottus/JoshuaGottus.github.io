@@ -37,7 +37,9 @@ const showMenu = (toggleId, navbarId, bodyId)=>{
     })
   }
   
-  const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+// ===== RANDOMIZE TEXT =====
+
+const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
 let interval = null;
 
